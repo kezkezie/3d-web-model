@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title>3d Display</title>
+		<link rel="stylesheet" href="stylle.css">
+				<link
+				href="./css/normalize.css"
+				rel="stylesheet"
+				type="text/css"
+				/>
+				<link
+				href="./css/webflow-base.css"
+				rel="stylesheet"
+				type="text/css"
+				/>
+				<link
+				href="./css/index.css"
+				rel="stylesheet"
+				type="text/css"
+				/>
+
+
+	</head>
+	<body>
+	<div >
+		<div class="landingpage w-container">
+            <div class="nav-bar">
+                <div class="shop-div">
+                    <a href="#" class="buybutton w-button">shop</a>
+                </div>
+                <div class="logodiv">
+                    <img
+                        src="https://uploads-ssl.webflow.com/5e3bbf2b591186b77f735cef/5ec167c6b7798e8f285ee49a_RADIO%20WEB.png"
+                        width="45"
+                        srcset="
+                            https://uploads-ssl.webflow.com/5e3bbf2b591186b77f735cef/5ec167c6b7798e8f285ee49a_RADIO%20WEB-p-500.png   500w,
+                            https://uploads-ssl.webflow.com/5e3bbf2b591186b77f735cef/5ec167c6b7798e8f285ee49a_RADIO%20WEB-p-800.png   800w,
+                            https://uploads-ssl.webflow.com/5e3bbf2b591186b77f735cef/5ec167c6b7798e8f285ee49a_RADIO%20WEB-p-1080.png 1080w,
+                            https://uploads-ssl.webflow.com/5e3bbf2b591186b77f735cef/5ec167c6b7798e8f285ee49a_RADIO%20WEB.png        1782w
+                        "
+                        sizes="45px"
+                        alt=""
+                    />
+                </div>
+                <div class="buydiv">
+                    <a href="#" class="buybutton w-button">Buy</a>
+                </div>
+            </div>
+
+
+            <div class="div-block">
+                <div class="details">
+                    <h1 class="nameofcar">1996 VINTAGE LOOKING <br />CAR</h1>
+                    <p class="paragraph">
+                        This car has been driven by the legendary Dilan Max in
+                        the movie <br />never give twice.
+                    </p>
+                    <h1 class="nameofcar">$ 20,000</h1>
+                    <div class="div-block-2">
+                        <div
+                            data-hover=""
+                            data-delay="0"
+                            class="dropdown w-dropdown"
+                        >
+                            <div class="dropdown-toggle-2 w-dropdown-toggle">
+                                <div class="w-icon-dropdown-toggle"></div>
+                                <div class="text-block">1</div>
+                            </div>
+                            <nav class="w-dropdown-list">
+                                <a href="#" class="w-dropdown-link">Link 1</a
+                                ><a href="#" class="w-dropdown-link">Link 2</a
+                                ><a href="#" class="w-dropdown-link">Link 3</a>
+                            </nav>
+                        </div>
+                        <a href="#" class="actionbutton w-button">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+                <div class="imagecar">
+                   
+                    <a id="modalBtn" class="button w-button">
+                        <img src=Car.PNG />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+		<!-- <div id="simpleModal" class = "modal">
+			<div class = "modal-content" id="scene3d">
+
+				<span class = "closeBtn" id="cbtn">&times;</span>
+				
+			</div>
+        </div> -->
+        
+
+        <div class="gun">
+            <div class="div-block">
+                <div class="details">
+                    <h1 class="nameofcar">MODERN LOOKING <br />Laptop</h1>
+                    <p class="paragraph">
+                        This laptop was used by the legendary Dilan Max in
+                        the movie <br />never give twice.
+                    </p>
+                    <h1 class="nameofcar">$ 2,000</h1>
+                    <div class="div-block-2">
+                        <div
+                            data-hover=""
+                            data-delay="0"
+                            class="dropdown w-dropdown"
+                        >
+                            <div class="dropdown-toggle-2 w-dropdown-toggle">
+                                <div class="w-icon-dropdown-toggle"></div>
+                                <div class="text-block">1</div>
+                            </div>
+                            <nav class="w-dropdown-list">
+                                <a href="#" class="w-dropdown-link">Link 1</a
+                                ><a href="#" class="w-dropdown-link">Link 2</a
+                                ><a href="#" class="w-dropdown-link">Link 3</a>
+                            </nav>
+                        </div>
+                        <a href="#" class="actionbutton w-button">
+                            ADD TO CART
+                        </a>
+                    </div>
+                </div>
+                <div class="imagecar">
+                   
+                    <a id="modal2Btn" class="button w-button">
+                        <img src=nblowpoly.jpg  />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+		<!-- <div id="simpleModal" class = "modal">
+			<div class = "modal-content" id="scene3d">
+
+				<span class = "closeBtn" id="cbtn">&times;</span>
+				
+			</div>
+        </div> -->
+
+
+		<div id="simpleModal" class = "modal">
+			<div class = "modal-content" id="scene3d">
+
+				<span class = "closeBtn" id="cbtn">&times;</span>
+				
+			</div>
+        </div>
+
+        <div id="simpleModal2" class = "modal">
+			<div class = "modal-content" id="scene3d2">
+
+				<span class = "closeBtn" id="cbtn2">&times;</span>
+				
+			</div>
+        </div>
+        
+
+		
+		<script src="js/three.js"></script>
+		<script src="GLTFLoader.js"></script>
+		<script src="OrbitControls.js"></script>
+        <script src="car.js"></script>
+        <script src="2ndmodel.js"></script>
+		<script src="main.js"></script>
+		
+	</body>
+</html>
